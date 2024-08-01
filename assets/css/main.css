@@ -1127,6 +1127,14 @@ input:checked + .toggle-bg {
   top: 2.5rem;
 }
 
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1574,6 +1582,10 @@ input:checked + .toggle-bg {
   border-radius: 0.5rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-e-lg {
   border-start-end-radius: 0.5rem;
   border-end-end-radius: 0.5rem;
@@ -1688,6 +1700,11 @@ input:checked + .toggle-bg {
 .bg-purple-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(85 33 181 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/assets\/images\/aboutus\.jpg\'\)\] {
@@ -1978,6 +1995,11 @@ input:checked + .toggle-bg {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(255 90 31 / var(--tw-text-opacity));
+}
+
 .line-through {
   text-decoration-line: line-through;
 }
@@ -2260,6 +2282,11 @@ input:checked + .toggle-bg {
 .dark\:bg-purple-800:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(85 33 181 / var(--tw-bg-opacity));
+}
+
+.dark\:bg-white:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .dark\:bg-gradient-to-br:is(.dark *) {
