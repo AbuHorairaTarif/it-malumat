@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="90" fill="#4CAF50" />
+
+    <!-- Code Brackets -->
+    <text x="50" y="70" font-family="Arial" font-size="40" fill="#ffffff">&#123;</text>
+    <text x="130" y="70" font-family="Arial" font-size="40" fill="#ffffff">&#125;</text>
+
+    <!-- IT Malumat Text -->
+    <text x="100" y="110" font-family="Arial" text-anchor="middle"  font-size="28" fill="#ffffff">IT Malumat</text>
+    <text x="100" y="140" font-family="Arial" text-anchor="middle"  font-size="18" fill="gold">We Solve for you</text>
+
+    <!-- Circuit Lines (Symbolizing Technology) -->
+    <line x1="90" y1="50" x2="90" y2="80" stroke="#ffffff" stroke-width="3" />
+    <circle cx="90" cy="50" r="5" fill="#ffffff" />
+    <line x1="110" y1="50" x2="110" y2="80" stroke="#ffffff" stroke-width="3" />
+    <circle cx="110" cy="50" r="5" fill="#ffffff" />
+</svg>

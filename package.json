@@ -1,0 +1,24 @@
+{
+  "name": "it-malumat",
+  "version": "1.0.0",
+  "description": "IT Malumat is a software based company serving users for different platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tailwindcss -i .main.css -o ./assets/css/main.css",
+    "watch": "tailwindcss -i main.css -o ./assets/css/main.css --watch",
+    "dev": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "vite": "^5.3.5"
+  },
+  "dependencies": {
+    "flowbite": "^2.4.1"
+  }
+}
